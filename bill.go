@@ -9,7 +9,7 @@ type BillsResponse struct {
 // BillResponse is
 type BillResponse Bill
 
-// Bill is holds the properties of what makes up a bill
+// Bill holds the properties of what makes up a bill
 type Bill struct {
 	BillID                      int           `json:"id"`
 	BillResolutionType          string        `json:"bill_resolution_type"`
